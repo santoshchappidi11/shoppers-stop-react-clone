@@ -1,0 +1,437 @@
+#single-product {
+  height: auto;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 180px 0 50px 0;
+}
+
+#single-product > #path {
+  width: 85%;
+  margin: auto;
+  font-size: 13px;
+  margin-top: 10px;
+  color: grey;
+}
+
+#single-product > #main {
+  height: auto;
+  width: 85%;
+  margin: auto;
+  margin: 25px 0 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #left {
+  height: auto;
+  width: 58%;
+  /* border: 1px solid red; */
+}
+
+#single-product > #main > #left > #img-sec-1 {
+  height: 360px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #left > #img-sec-1 > .img {
+  height: 100%;
+  width: 48%;
+  /* border: 1px solid red; */
+}
+
+#single-product > #main > #left > #img-sec-1 > .img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+#single-product > #main > #left > #img-sec-2 {
+  height: 400px;
+  width: 100%;
+  /* margin: auto; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 22px 0 10px 0;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #left > #img-sec-2 > .img {
+  height: 100%;
+  width: 65%;
+  margin: auto;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* border: 1px solid rgb(167, 167, 167); */
+}
+
+#single-product > #main > #left > #img-sec-2 > .img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* ------------------------------------------------ */
+#single-product > #main > #right {
+  height: auto;
+  width: 40%;
+  /* border: 1px solid green; */
+}
+
+#single-product > #main > #right > h2 {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > span {
+  font-size: 15px;
+  font-weight: 400;
+  color: rgb(95, 95, 95);
+}
+
+#single-product > #main > #right > #price-details {
+  width: 50%;
+  margin: 15px 0;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > #price-details > #price {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  /* flex-direction: column; */
+}
+
+#single-product > #main > #right > #price-details > #price > h3 {
+  font-weight: 600;
+}
+
+#single-product > #main > #right > #price-details > #price > p {
+  font-size: 18px;
+  text-decoration: line-through;
+  color: grey;
+  margin: 0 0 0 6px;
+}
+
+#single-product > #main > #right > #price-details > #price > span {
+  margin: 0 0 0 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(255, 107, 53);
+}
+
+#single-product > #main > #right > #price-details > h3 {
+  font-weight: 500;
+  font-size: 16px;
+  color: rgb(128, 130, 119);
+}
+
+#single-product > #main > #right > #product-view {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0px 0 15px 0;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > #product-view > #view {
+  width: 12%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 107, 53);
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > #product-view > #view > b {
+  font-size: 17px;
+}
+
+#single-product > #main > #right > #product-view > h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0 8px;
+}
+
+#single-product > #main > #right > #circle-img {
+  margin: 10px 0 25px 0;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > #circle-img > #img {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#single-product > #main > #right > #circle-img > #img > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+#single-product > #main > #right > #circle-img > h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+#single-product > #main > #right > #size-chart {
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > #size-chart > #size-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid green; */
+}
+
+#single-product > #main > #right > #size-chart > #size-header > h5 {
+  font-weight: 700;
+  font-size: 13px;
+  border-bottom: 1px solid black;
+}
+
+#single-product > #main > #right > #size-chart > #size-main {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  /* border: 1px solid red; */
+}
+
+#single-product > #main > #right > #size-chart > #size-main > div {
+  padding: 10px 8px;
+  border-radius: 25px;
+  margin: 5px 8px 5px 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(190, 190, 190);
+  border: 1px solid rgb(190, 190, 190);
+}
+
+#single-product > #main > #right > #size-chart > #size-main > div:nth-child(3) {
+  color: black;
+  border: 1px solid black;
+}
+
+#single-product > #main > #right > #size-chart > #size-main > div:nth-child(5) {
+  color: black;
+  border: 1px solid black;
+}
+
+#single-product > #main > #right > #easy-return {
+  margin: 10px 0 40px 0;
+  /* border: 1px solid green; */
+}
+
+#single-product > #main > #right > #easy-return > p {
+  width: 85%;
+  font-size: 13px;
+  text-align: center;
+  background-color: rgb(236, 236, 236);
+  /* border: 1px solid red; */
+}
+
+#single-product > #main > #right > #add-to-cart {
+  height: 60px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  margin: 15px 0;
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > #add-to-cart > .side-button {
+  height: 70%;
+  width: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  margin: 0 10px 0 0;
+  background-color: rgb(247, 247, 247);
+  /* border: 1px solid rgb(204, 204, 204); */
+  /* border: 1px solid black; */
+}
+
+#single-product > #main > #right > #add-to-cart > .side-button > img {
+  height: 80%;
+  width: 80%;
+  object-fit: contain;
+}
+
+#single-product > #main > #right > #add-to-cart > .main-button {
+  height: 70%;
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid rgb(204, 204, 204); */
+}
+
+#single-product > #main > #right > #add-to-cart > .main-button > button {
+  height: 100%;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: white;
+  background-color: black;
+}
+
+#single-product > #main > #right > #delivery-services {
+  padding: 20px 10px;
+  border: 1px solid rgb(202, 202, 202);
+}
+
+#single-product > #main > #right > #delivery-services > #delivery-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+
+#single-product > #main > #right > #delivery-services > #delivery-header > h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#single-product > #main > #right > #delivery-services > #delivery-pincode {
+  margin: 15px 0 15px 0;
+  /* border: 1px solid green; */
+}
+
+#single-product > #main > #right > #delivery-services > #delivery-pincode > h4 {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 5px 0;
+  color: rgb(65, 65, 65);
+}
+
+#single-product
+  > #main
+  > #right
+  > #delivery-services
+  > #delivery-pincode
+  > #pincode {
+  height: 45px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+#single-product
+  > #main
+  > #right
+  > #delivery-services
+  > #delivery-pincode
+  > #pincode
+  > input {
+  height: 95%;
+  width: 75%;
+  border: none;
+  background: none;
+}
+
+#single-product
+  > #main
+  > #right
+  > #delivery-services
+  > #delivery-pincode
+  > #pincode
+  > input::placeholder {
+  padding-left: 20px;
+  font-weight: 600;
+}
+
+#single-product
+  > #main
+  > #right
+  > #delivery-services
+  > #delivery-pincode
+  > #pincode
+  > button {
+  height: 100%;
+  width: 25%;
+  border: none;
+  background: none;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+#single-product > #main > #right > #delivery-services > #services {
+  height: auto;
+  width: 100%;
+  /* border: 1px solid rgb(219, 219, 219); */
+}
+
+#single-product > #main > #right > #delivery-services > #services > .service {
+  height: auto;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  /* border: 1px solid black; */
+}
+
+#single-product
+  > #main
+  > #right
+  > #delivery-services
+  > #services
+  > .service
+  > .service-icon {
+  padding: 0 20px 0 5px;
+  margin-top: 8px;
+}
+
+#single-product
+  > #main
+  > #right
+  > #delivery-services
+  > #services
+  > .service
+  > .service-desc
+  > h4 {
+  font-weight: 600;
+}
+
+#single-product
+  > #main
+  > #right
+  > #delivery-services
+  > #services
+  > .service
+  > .service-desc
+  > p {
+  font-size: 16px;
+  color: rgb(59, 59, 59);
+}

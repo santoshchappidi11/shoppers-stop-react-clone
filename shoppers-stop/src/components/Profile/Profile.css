@@ -1,0 +1,291 @@
+#profile {
+  height: auto;
+  width: 100%;
+  /* z-index: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 180px 0 40px 0;
+  border-bottom: 1px solid rgb(197, 197, 197);
+  background-color: rgb(245, 245, 245);
+  position: relative;
+}
+
+#profile > #main {
+  height: auto;
+  width: 96%;
+  margin: auto;
+  margin: 20px 0 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #left {
+  height: auto;
+  width: 23%;
+  /* border: 1px solid red; */
+}
+
+#profile > #main > #left > #left-1 {
+  width: 100%;
+  padding: 15px 0 48px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 92, 60),
+    rgb(255, 45, 101)
+  );
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #left > #left-1 > .fa-circle-user {
+  font-size: 45px;
+}
+
+#profile > #main > #left > #left-1 > #details {
+  margin: 0 8px;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #left > #left-1 > #details > p {
+  font-weight: 300;
+  font-size: 12px;
+  margin: 0 0 10px 0;
+}
+
+#profile > #main > #left > #left-2 {
+  margin: 5px 0 4px 0;
+  width: 100%;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #left > #left-2 > #change-pass {
+  height: 45px;
+  width: 100%;
+  /* border: 1px solid green; */
+}
+
+#profile > #main > #left > #left-2 > #change-pass > button {
+  height: 100%;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  background: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+#profile > #main > #left > #left-3 {
+  width: 100%;
+  background-color: white;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #left > #left-3 > #options {
+  width: 100%;
+  padding: 0 10px;
+  /* border: 1px solid green; */
+}
+
+#profile > #main > #left > #left-3 > #options > div {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+#profile > #main > #left > #left-3 > #options > div:last-child {
+  border: none;
+}
+
+#profile > #main > #left > #left-3 > #options > div > p {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* ---------------------------------------------------- */
+
+#profile > #main > #right {
+  height: auto;
+  width: 74%;
+  padding: 15px 0 110px 18px;
+  background-color: white;
+  /* border: 1px solid green; */
+}
+
+#profile > #main > #right > #right-header {
+  width: 29%;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #right > #right-header > h2 {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#profile > #main > #right > #right-middle {
+  width: 50%;
+  margin: 30px 0 10px 0;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #right > #right-middle > div {
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0 0 10px 0;
+  /* border: 1px solid blue; */
+}
+
+#profile > #main > #right > #right-middle > div > h6 {
+  font-size: 13px;
+  width: 50%;
+  color: rgb(70, 70, 70);
+  /* flex-grow: 1; */
+}
+
+#profile > #main > #right > #right-middle > div > p {
+  width: 50%;
+  font-size: 13px;
+  color: rgb(77, 77, 77);
+}
+
+#profile > #main > #right > #right-footer {
+  margin: 25px 0 0 0;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #right > #right-footer > #edit {
+  height: 40px;
+  width: 18%;
+  /* border: 1px solid black; */
+}
+
+#profile > #main > #right > #right-footer > #edit > button {
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 92, 60),
+    rgb(255, 45, 101)
+  );
+}
+
+/* -----------------------------popup-------------------------------------------- */
+
+#profile-popup-screen {
+  z-index: 11;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+#profile-popup-screen > #popup {
+  height: 320px;
+  width: 35%;
+  background-color: white;
+}
+
+#profile-popup-screen > #popup > .fa-xmark {
+  /* width: 100%; */
+  float: right;
+  margin: 25px 20px 10px 0;
+  cursor: pointer;
+  /* border: 1px solid black; */
+}
+
+#profile-popup-screen > #popup > #header {
+  height: auto;
+  width: 100%;
+  margin: 55px 0 0 0;
+  text-align: center;
+  /* border: 1px solid black; */
+}
+
+#profile-popup-screen > #popup > #header > h3 {
+  font-weight: 500;
+}
+
+#profile-popup-screen > #popup > #middle > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+}
+
+#profile-popup-screen > #popup > #middle > form > div {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin: 10px 0 10px 0;
+  /* border: 1px solid black; */
+}
+
+#profile-popup-screen > #popup > #middle > form > div > input {
+  height: 100%;
+  width: 50%;
+  outline: none;
+  border: none;
+  border: 1px solid rgb(216, 216, 216);
+  margin: 0 0 0 15px;
+}
+
+#profile-popup-screen > #popup > #middle > form > div > input::placeholder {
+  padding: 0 0 0 10px;
+}
+
+#profile-popup-screen > #popup > #footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+
+#profile-popup-screen > #popup > #footer > #update {
+  height: 38px;
+  width: 65%;
+  /* border: 1px solid red; */
+}
+
+#profile-popup-screen > #popup > #footer > #update > button {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  border: none;
+  background: none;
+  color: white;
+  border-radius: 5px;
+  background-image: linear-gradient(
+    to right,
+    rgb(255, 92, 60),
+    rgb(255, 45, 101)
+  );
+}
