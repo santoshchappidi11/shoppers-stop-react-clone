@@ -45,8 +45,7 @@ const AuthProvider = ({ children }) => {
 
   useEffect(() => {
     const getCurrentUser = async () => {
-      const token =
-        JSON.parse(localStorage.getItem("shoppersStopUserToken")) || "";
+      const token = JSON.parse(localStorage.getItem("shoppersStopUserToken"));
       if (token?.length) {
         const response = await axios.post(
           "http://localhost:8002/get-current-user",

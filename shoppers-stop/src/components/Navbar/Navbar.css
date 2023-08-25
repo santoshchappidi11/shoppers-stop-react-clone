@@ -301,7 +301,7 @@ h2 {
 }
 
 #popup-screen > #register-popup > .popup-top {
-  height: 40%;
+  height: 32%;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -319,12 +319,12 @@ h2 {
 }
 
 #popup-screen > #register-popup > .popup-top > .popup-header {
-  margin: 70px 0 0 25px;
+  margin: 20px 0 0 25px;
   /* border: 1px solid green; */
 }
 
 #popup-screen > #register-popup > .popup-down {
-  height: 60%;
+  height: 75%;
   width: 100%;
   padding: 15px 0;
   /* border: 2px solid black; */
@@ -349,6 +349,15 @@ h2 {
 #popup-screen > #register-popup > .popup-down > form > input::placeholder {
   font-size: 16px;
   color: rgb(63, 63, 63);
+}
+
+#popup-screen > #register-popup > .popup-down > form > select {
+  height: 35px;
+  width: 40%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border: 1px solid black;
 }
 
 #popup-screen > #register-popup > .popup-down > form > button {
